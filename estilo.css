@@ -1,3 +1,35 @@
-li h3 {
-font-family: Snell Roundhand, cursive;
+
+@font-face {
+    font-family: 'Brush Script MT, Brush Script Std, cursive';
+    src: url('https://www.w3.org/Style/Examples/007/fonts.en.html#font-family');
+}
+
+.titulo {
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 50px;
+}
+
+.container {
+    background-color: hsla(0, 0%, 23%, 0.349);
+    padding: 15px;
+    color: black;
+}
+
+.centralizar {
+    text-align: center;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+
+}
+
+body {
+    background: url(Imagens/medico2.jpeg);
+    background-repeat: repeat-x;
+    background-size: cover;
+}
+
+.menu {
+    font-size: 17px;
+    background-color: hsla(0, 0%, 0%, 0.829);
 }
