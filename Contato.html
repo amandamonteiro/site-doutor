@@ -22,57 +22,45 @@
         </div>
         <section>
             <article>
-                <div class="container" style="margin-top:50px">
+                <div class="container2" style="margin-top:50px">
+                    <header>
+                        <h2> Dúvidas?</h2>
+                    </header>
                     <br>
                     <br>
-                    <div class="form-group">
-                        <input class="form-control" placeholder="Nome" type="text" id="nome" name="nome">
-                        <br>
-                        <br>
-                        <label>Email:*</label> <input type="email" id="email" name="email">
-                        <br>
-                        <br>
-                        <label>
-                            Telefone:*
-                        </label> <input type="tel" id="tel" name="tel">
-                        <br>
-                        <br>
-                        <label>
-                            Consultorio de preferência:
-                        </label>
-                        <select>
-                            <option>ICCAT</option>
-                        </select>
-                        <br>
-                        <br>
-                        <label>
-                            Data de Consulta:
-                        </label>
-                        <input type="date" id="date" name="date">
-                        <br>
-                        <br>
-                        <label>
-                            Como chegou ao nosso site?
-                        </label>
-                        <select>
-                            <option>Google</option>
-                            <option>Indicação</option>
-                            <option>Redes Sociais</option>
-                        </select>
-                        <br>
-                        <br>
-                        <label>Mensagem:*</label>
-                        <br>
-                        <textarea id="texto" name="texto" cols="75">
-                    </textarea>
-                        <br>
-                        <br>
-                        <input type="submit" value="Enviar" id="enviar" name="enviar">
-                    </div>
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label>Nome</label>
+                                <input type="nome" class="form-control" id="nome" placeholder="Nome">
+                            </div>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="InputName">Sobrenome</label>
+                            <input type="text" class="form-control" id="text" placeholder="Sobrenome">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputEmail4">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Email">
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="inputContact">Telefone</label>
+                                <input type="number" class="form-control" id="number" placeholder="Telefone">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="texto" placeholder="Em que podemos ajudar?" name="texto" cols="95"></textarea>
+                            <br>
+                            <br>
+                            <div class="formulario">
+                                <button type="submit" class="btn">Enviar</button>
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </article>
         </section>
-    </div>
     </div>
 </body>
 

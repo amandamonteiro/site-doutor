@@ -33,3 +33,30 @@ body {
     font-size: 17px;
     background-color: hsla(0, 0%, 0%, 0.829);
 }
+
+.texto {
+    text-align: justify;
+}
+
+.ajuste {
+    margin: 0px 0px 0px 0px;
+}
+
+.container2 {
+    background-color: hsla(0, 0%, 23%, 0.349);
+    padding: 15px;
+    color: black;
+    margin: 0px 300px 0px 300px;
+}
+
+.formulario {
+    padding: 15px 0px 0px 540px;
+}
+
+.label {
+    text-align: left;
+}
+
+a {
+    color: rgb(255, 255, 255);
+ }
