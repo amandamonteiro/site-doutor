@@ -1,4 +1,3 @@
-
 @font-face {
     font-family: 'Brush Script MT, Brush Script Std, cursive';
     src: url('https://www.w3.org/Style/Examples/007/fonts.en.html#font-family');
@@ -13,6 +12,7 @@
     background-color: hsla(0, 0%, 23%, 0.349);
     padding: 15px;
     color: black;
+    margin-top: 50px;
 }
 
 .centralizar {
@@ -20,13 +20,13 @@
     width: auto;
     justify-content: center;
     align-items: center;
-
 }
 
 body {
     background: url(Imagens/medico2.jpeg);
-    background-repeat: repeat-x;
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
 }
 
 .menu {
@@ -42,7 +42,7 @@ body {
     margin: 0px 0px 0px 0px;
 }
 
-.container2 {
+.container-contato {
     background-color: hsla(0, 0%, 23%, 0.349);
     padding: 15px;
     color: black;
@@ -59,4 +59,19 @@ body {
 
 a {
     color: rgb(255, 255, 255);
- }
+}
+
+article {
+    margin: 50px;
+}
+
+.section-gray {
+    background-color: hsla(0, 29%, 92%, 0.301);
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.content-text-center {
+    margin-left: 20%;
+    margin-right: 20%;
+}
